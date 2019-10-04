@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+echo Name for new Bash Script:
+
+read scname
+
+nano ~/bin/$scname
+
+

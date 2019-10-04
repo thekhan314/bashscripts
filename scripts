@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+cd ~/bin
+
+ls -la
+
+
+read name
+
+nano $name
+

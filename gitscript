@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+read url
+
+cd /c/'Jupyter Notebooks'
+
+git clone $url
+
+newbook=$(ls -t | head -1)
+
+cd $newbook
+
+jupyter notebook
