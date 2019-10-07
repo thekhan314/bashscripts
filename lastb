@@ -1,0 +1,11 @@
+#! /usr/bin/bash
+
+
+cd /c/'Jupyter Notebooks'
+
+lastbook=$(ls -t | head -1)
+
+cd $lastbook
+
+jupyter notebook
+

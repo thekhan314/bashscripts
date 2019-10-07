@@ -1,0 +1,12 @@
+
+
+#! /usr/bin/bash
+echo Paste URL:
+
+read url
+
+cd /c/'Jupyter Notebooks'
+
+git clone $url
+
+

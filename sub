@@ -1,0 +1,21 @@
+#! /usr/bin/bash
+
+echo "Commit message:"
+
+read msg
+
+
+cd /c/'Jupyter Notebooks'
+
+lastbook=$(ls -t | head -1)
+
+cd $lastbook
+
+
+git add .
+
+git commit -m $msg
+
+git push
+
+
